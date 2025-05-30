@@ -1,0 +1,24 @@
+
+body{
+    background: #BDE9F6;
+    .container{
+        background-color: #ffffff;
+    }
+}
+
+h1{
+    color: black;
+}
+fieldset{
+     border-radius: 20px;
+     color: rgb(0,0,0);
+}
+
+fieldset{
+    background-color: #BDE9F6;
+}
+
+legend{
+    border: 40px;
+    background-color: lightblue;
+}
