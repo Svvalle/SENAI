@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .flag {
+    position: relative;
+    width: 480px;
+    height: 240px;
+    background-color: #00247d;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+  }
+  
+  /* Diagonais brancas */
+  .diagonal-branca {
+    position: absolute;
+    width: 150%;
+    height: 50px;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    transform-origin: center;
+    z-index: 0;
+  }
+  
+  .diagonal-1 {
+    transform: translate(-50%, -50%) rotate(25deg);
+  }
+  
+  .diagonal-2 {
+    transform: translate(-50%, -50%) rotate(-25deg);
+  }
+  
+  /* Diagonais vermelhas */
+  .diagonal-vermelha {
+    position: absolute;
+    width: 150%;
+    height: 20px;
+    background-color: #cf142b;
+    top: 50%;
+    left: 50%;
+    transform-origin: center;
+    z-index: 1;
+  }
+  
+  .diagonal1-vermelha {
+    transform: translate(-50%, -35%) rotate(25deg);
+  }
+  
+  .diagonal2-vermelha {
+    transform: translate(-50%, -70%) rotate(-25deg);
+  }
+  
+  /* Cruz branca horizontal e vertical */
+  .horizontal-branca,
+  .vertical-branca {
+    position: absolute;
+    background-color: white;
+    z-index: 1;
+  }
+  
+  .horizontal-branca {
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    transform: translateY(-50%);
+  }
+  
+  .vertical-branca {
+    top: 0;
+    left: 50%;
+    width: 70px;
+    height: 100%;
+    transform: translateX(-50%);
+  }
+  
+  /* Cruz vermelha */
+  .horizontal-vermelha,
+  .vertical-vermelha {
+    position: absolute;
+    background-color: #cf142b;
+    z-index: 2;
+  }
+  
+  .horizontal-vermelha {
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    transform: translateY(-50%);
+  }
+  
+  .vertical-vermelha {
+    top: 0;
+    left: 50%;
+    width: 40px;
+    height: 100%;
+    transform: translateX(-50%);
+  }
+  

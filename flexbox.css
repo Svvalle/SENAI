@@ -1,0 +1,432 @@
+
+.container-principal{
+    background-color: rgb(101, 149, 168);
+    align-items: center;
+    height: 100vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+
+.fundo_branco_japao{
+    height: 100px;
+    width: 200px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 1em;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.circulo_japao{
+    height: 60px;
+    width: 60px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+
+.container-polonia{
+    width: 200px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1em;
+    overflow: hidden;
+    margin: 15px;
+}
+
+.parte-branca{
+    flex: 1;
+    background-color: white;
+}
+
+.parte-vermelha{
+    flex: 1;
+    background-color: red;
+}
+
+.container-italia{
+    width: 200px;
+    height: 100px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 1em;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.parte-verde2{
+    width: 70px;
+    height: 100px;
+    background-color: #3cb41e;
+}
+
+.parte-vermelha2{
+    width: 70px;
+    height: 100px;
+    background-color: #e42727;
+}
+
+.container-suecia{
+    width: 200px;
+    height: 100px;
+    background-color: #005293;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    overflow: hidden;
+    border-radius: 1em;
+    margin: 10px;
+}
+
+.parte-amarela-vertical{
+    width: 20px;
+    height: 100px;
+    background-color: yellow;
+    /*flex-direction: column;*/
+    position: absolute;
+    margin-right: 80px;
+}
+
+.parte-amarela-horizontal{
+    width: 200px;
+    height: 20px;
+    background-color: yellow;
+    position: absolute;
+    align-self: center;
+}
+
+.container-trinidad-tobago{
+    width: 200px;
+    height: 100px;
+    background-color: #e42727;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    border-radius: 1em;
+    margin: 10px;
+}
+
+.faixa-diagonal{
+    width: 200px;
+    height: 100px;
+    clip-path: polygon(0% 0%, 20% 0%, 100% 100%, 80% 100%);
+    background-color: black;
+    position: absolute;
+}
+
+.faixa-diagonal-branca1{
+    width: 200px;
+    height: 100px;
+    clip-path: polygon(0% 0%, -5% 0%, 75% 100%, 80% 100%);
+    background-color: white;
+    position: absolute;
+}
+
+.faixa-diagonal-branca2{
+    width: 200px;
+    height: 100px;
+    clip-path: polygon(25% 0%, 20% 0%, 95% 100%, 100% 100%);
+    background-color: white;
+    position: absolute;
+}
+
+.container-guine-bissau{
+    width: 200px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1em;
+    overflow: hidden;
+    position: relative;
+    background-color: green;
+    margin: 10px;
+}
+
+.parte-amarela{
+    flex: 1;
+    background-color: rgba(238, 222, 5, 0.973);
+    position: absolute;
+    height: 50px;
+    width: 200px;
+}
+
+.faixa-vermelha{
+    flex: 1;
+    background-color: rgb(219, 9, 9);
+    position: absolute;
+    height: 200px;
+    width: 70px;
+}
+
+
+.estrela{
+    color: black;
+    font-size: 40px;
+    justify-self: center;
+    margin-top: 20px;
+}
+
+.container-kuwait{
+    width: 200px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1em;
+    overflow: hidden;
+    position: relative;
+    background-color: white;
+    margin: 10px;
+}
+
+.faixa-vermelha3{
+    flex: 1;
+    background-color: rgb(219, 9, 9);
+    position: absolute;
+    height: 33.33%;
+    width: 100%;
+    margin-top: 70px;
+}
+.faixa-verde3{
+    flex: 1;
+    background-color: green;
+    position: absolute;
+    height: 33.33%;
+    width: 100%;
+}
+
+.trapezio{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 100%;
+    clip-path: polygon(0 0, 100% 32%, 100% 71%, 0 100%);
+    background-color: #000;
+}
+
+.container-grecia{
+    width: 200px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1em;
+    overflow: hidden;
+    position: relative;
+    background-color: #0d5eaf;
+    margin: 10px;
+}
+
+.faixa-branca-1{
+    flex: 1;
+    background-color: white;
+    position: absolute;
+    height: 11.11%;
+    width: 100%;
+    margin-top: 80px;
+}
+
+.faixa-branca-2{
+    flex: 1;
+    background-color: white;
+    position: absolute;
+    height: 11.11%;
+    width: 100%;
+    margin-top: 55px;
+}
+
+.faixa-branca-3{
+    flex: 1;
+    background-color: white;
+    position: absolute;
+    height: 11.11%;
+    width: 70%;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+
+.faixa-branca-4{
+    flex: 1;
+    background-color: white;
+    position: absolute;
+    height: 11.11%;
+    width: 70%;
+    margin-top: 10px;
+    margin-left: 60px;
+}
+
+
+.canton{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: calc(200px / 3.0);
+    height: calc(95px * 5 / 9);
+    background-color: #0d5eaf;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.cross-vertical,
+.cross-horizontal{
+    position: absolute;
+    background-color: white;
+}
+
+.cross-vertical{
+    width: 10px;
+    height: 110%;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+}
+
+.cross-horizontal{
+    width: 100%;
+    height: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.container-brasil {
+    width: 200px;
+    height: 100px;
+    position: relative;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 12px;
+}
+
+.area-verde {
+    width: 100%;
+    height: 100%;
+    background-color: #009b3a;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+
+}
+
+.area-amarela {
+    width: 100%;
+    height: 100%;
+    background-color: #ffdf00;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.area-azul {
+    width: 46px;
+    height: 46px;
+    background-color: #002776;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+
+.faixa-branca {
+    width: 55px;
+    height: 6px;
+    background-color: white;
+    border-radius: 50%/100%;
+    position: absolute;
+    top: 20px;
+    left: -5px;
+    transform: rotate(-20deg);
+}
+
+
+.bandeira-macedonia {
+    width: 200px;
+    height: 100px;
+    background-color: #d20000;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 10px;
+    margin-top: 12px;
+
+}
+
+.sol {
+    width: 30px;
+    height: 30px;
+    background-color: #ffe600;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.raio {
+    background-color: #ffe600;
+    position: absolute;
+    z-index: 1;
+}
+
+.raio.vertical {
+    width: 10px;
+    height: 100%;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+}
+
+.raio.horizontal {
+    width: 100%;
+    height: 10px;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.raio.diagonal1 {
+    width: 300px;
+    height: 10px;
+    top: 50%;
+    left: -50px;
+    transform: rotate(45deg) translateY(-50%);
+    transform-origin: center;
+}
+
+.raio.diagonal2 {
+    width: 300px;
+    height: 10px;
+    top: 50%;
+    left: -50px;
+    transform: rotate(-45deg) translateY(-50%);
+    transform-origin: center;
+}
+
+.raio.diagonal3 {
+    width: 300px;
+    height: 6px;
+    top: 50%;
+    left: -50px;
+    transform: rotate(30deg) translateY(-50%);
+    transform-origin: center;
+}
+
+.raio.diagonal4 {
+    width: 300px;
+    height: 6px;
+    top: 50%;
+    left: -50px;
+    transform: rotate(-30deg) translateY(-50%);
+    transform-origin: center;
+}
+

@@ -1,24 +1,97 @@
+body {
+    background-color: #BCE9F6;
+    font-family: Arial, sans-serif;
+    padding: 40px;
+    margin: 0;
+}
+/*----------------------------------------*/
 
-body{
-    background: #BDE9F6;
-    .container{
-        background-color: #ffffff;
-    }
+.container {
+    background-color: white;
+    width: 500px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgb(75, 75, 75);
+    height: 100%;
+}
+/*----------------------------------------*/
+
+h1 {
+    font-size: 28px color #0c1c2c;
+    margin-bottom: 20px;
+}
+/*----------------------------------------*/
+
+fieldset {
+    border: none;
+    background-color: #FFFFFD;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+}
+/*----------------------------------------*/
+
+fieldset {
+    border: none;
+    background-color: #C4E8EA;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+}
+/*----------------------------------------*/
+
+legend {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+/*----------------------------------------*/
+
+label {
+    display: inline-block;
+    margin-top: 10px;
+}
+/*------------------- caixa de texto PT1 ---------------------*/
+
+input[type="text"],
+select,
+textarea {
+    width: 60%;
+    padding: 5px;
+    margin-top: 3px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-bottom: 1px;
+    box-sizing: border-box;
+}
+/*----------------------------------------*/
+
+input[type="submit"],
+input[type="reset"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-right: 10px;
 }
 
-h1{
-    color: black;
-}
-fieldset{
-     border-radius: 20px;
-     color: rgb(0,0,0);
+input[type="submit"] {
+    background-color: #007bff;
+    color: white;
 }
 
-fieldset{
-    background-color: #BDE9F6;
+input[type="reset"] {
+    background-color: #f3ecec;
+    color: #000;
+}
+/*----------------------------------------*/
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 10px;
+    margin-top: 5px;
 }
 
-legend{
-    border: 40px;
-    background-color: lightblue;
-}
