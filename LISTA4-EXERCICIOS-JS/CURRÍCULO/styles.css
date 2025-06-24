@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  body {
+    background: #f4f7f8;
+    color: #333;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  main {
+    max-width: 900px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-bottom: 2px solid #00aaff;
+    padding-bottom: 20px;
+  }
+  
+  header img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #00aaff;
+  }
+  
+  header div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    color: black;
+  }
+  
+  header p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-top: 5px;
+  }
+  
+  section {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  section h2 {
+    border-left: 5px solid #00aaff;
+    padding-left: 10px;
+    color: #005f99;
+    margin-bottom: 10px;
+  }
+  
+  /* Experiência profissional em linhas separadas */
+  article.experiencia {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding-left: 15px;
+    border-left: 3px solid #00aaff;
+  }
+  
+  article.experiencia > p {
+    font-size: 1rem;
+    line-height: 1.4;
+    color: #444;
+    font-weight: bold;
+  }
+  
+  article.experiencia > h3 {
+    color: #005f99;
+    font-size: 1.2rem;
+  }
+  
+  article.experiencia > span {
+    font-style: italic;
+    font-size: 0.9rem;
+    color: #777;
+    font-weight: bold;
+  }
+  
+  /* Formação e contatos */
+  .info-flex {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .contato, .formacao {
+    flex: 1 1 300px;
+  }
+  
+  .contato ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .contato li {
+    margin-bottom: 8px;
+    font-size: 1rem;
+    color: #444;
+    font-weight: bold;
+  }
+  
+  .contato li span {
+    font-weight: bold;
+    color: #005f99;
+  }
+  
+  footer {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #aaa;
+    margin-top: 30px;
+  }
+  
+  @media (max-width: 600px) {
+    header {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    header div {
+      justify-content: center;
+    }
+    .info-flex {
+      flex-direction: column;
+    }
+  }
+  
